@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: local('Gotham Pro Regular'), url('./fonts/GothamPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: local('Gotham Pro Bold'), url('./fonts/GothamPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 20px;
+  font: 14px 'Gotham Pro', sans-serif;
+  color: #181818;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s;
+}
+
+a:hover,
+a:focus {
+  outline: none;
+  transition: color 0.2s;
+  color: #e2b67a;
+}
+
+button {
+  outline: none;
+  border: 2px solid transparent;
+  background: transparent center;
+  font: bold 14px 'Gotham Pro';
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover,
+button:focus {
+  transition: 0.2s;
+  border: 2px solid #e2b67a;
+  color: #e2b67a;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+

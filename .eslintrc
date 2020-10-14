@@ -1,0 +1,8 @@
+{
+  "extends": ["react-app", "prettier"],
+  "rules": {
+    "jsx-quotes": [1, "prefer-double"],
+    "react/prop-types": 1
+  },
+  "plugins": ["prettier"]
+}

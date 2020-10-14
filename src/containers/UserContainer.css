@@ -1,0 +1,22 @@
+.btn--login {
+  margin-right: 10px;
+}
+
+.btn--logout {
+  margin-left: 10px;
+}
+
+input {
+  cursor: pointer;
+}
+
+label {
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+label:hover,
+label:active {
+  transition: color 0.2s;
+  color: #e2b67a;
+}
